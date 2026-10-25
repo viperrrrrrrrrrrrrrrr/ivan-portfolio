@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ivan Litvin — Web Developer for Small Businesses</title>
-  <meta name="description" content="Ivan Litvin builds fast, modern websites and web apps for small businesses worldwide: online booking systems with admin panels, landing pages, business websites, redesigns and simple automations." />
+  <meta name="description" content="Ivan Litvin builds fast, modern websites and web apps for small businesses worldwide: online booking systems with admin panels, Telegram Mini Apps, 3D product configurators, quote calculators, editable business websites and simple automations." />
   <meta property="og:title" content="Ivan Litvin — Fast, modern websites for small businesses" />
   <meta property="og:description" content="Online booking systems and web apps with admin panels, landing pages, small-business websites, redesigns and simple automations. Working remotely with clients worldwide." />
   <meta property="og:type" content="website" />
@@ -95,7 +95,8 @@
           <article class="card">
             <div class="card__icon">🤖</div>
             <h3>Telegram bots &amp; simple automations</h3>
-            <p>Small helpers that save time: forward form submissions to Telegram, simple booking or FAQ bots, basic workflow automations.</p>
+            <p>Small helpers that save time: forward form submissions to Telegram, booking bots and Telegram Mini Apps, FAQ bots, basic workflow automations.</p>
+            <a href="#petalune" class="card__link">See the Telegram Mini App demo →</a>
           </article>
         </div>
       </div>
@@ -107,7 +108,7 @@
         <div class="section__head">
           <p class="kicker">Selected work</p>
           <h2>Case studies</h2>
-          <p class="muted">From a full-stack booking system with an admin panel to a fast website for a local business.</p>
+          <p class="muted">From a full-stack booking system with an admin panel to a Telegram Mini App, a 3D product configurator, an instant quote calculator and websites for local businesses.</p>
         </div>
 
         <!-- CASE: Brasswood (personal / demo project) -->
@@ -119,7 +120,7 @@
           </div>
 
           <div class="case__media">
-            <a href="https://brasswood-booking.pages.dev" target="_blank" rel="noopener" class="browser browser--lg" aria-label="Open the Brasswood live demo (opens in a new tab)">
+            <a href="https://brasswood-booking.pages.dev" target="_blank" rel="noopener" class="browser browser--lg" aria-label="brasswood-booking.pages.dev — open the Brasswood live demo (opens in a new tab)">
               <div class="browser__bar"><i></i><i></i><i></i><span>brasswood-booking.pages.dev</span></div>
               <img src="assets/brasswood-slots.webp" alt="Brasswood booking flow: picking a date in the calendar and a free time slot, with the appointment summary on the right" width="1200" height="750" loading="lazy" decoding="async" />
             </a>
@@ -179,11 +180,126 @@
           <div class="case__footer">
             <div class="case__actions">
               <a href="https://brasswood-booking.pages.dev" target="_blank" rel="noopener" class="btn btn--primary">Live demo ↗</a>
+              <a href="https://github.com/viperrrrrrrrrrrrrrrr/brasswood-booking" target="_blank" rel="noopener" class="btn btn--ghost">Code on GitHub ↗<span class="sr-only"> Brasswood booking system (opens in a new tab)</span></a>
             </div>
             <p class="demo-login">To see the admin panel, use the <strong>Admin demo</strong> button in the demo’s header — demo login <code>admin</code> / <code>demo</code> (shown on the login page).</p>
             <p class="note">Personal demo project for a fictional barbershop, built to showcase my approach; not a client project. The public demo runs in your browser with sample data, so feel free to click around — nothing is sent anywhere.</p>
           </div>
         </article>
+
+        <!-- MORE DEMO PROJECTS (all fictional businesses, sample prices) -->
+        <div class="case__label" id="projects">
+          <p class="kicker">More demo projects</p>
+          <h3 class="case__title">Booking, configurators, quotes and editable sites</h3>
+          <p class="muted">Four more working demos, each built for a fictional business with sample prices — not client projects. Open the live demo or read the code on GitHub.</p>
+        </div>
+
+        <div class="projects">
+          <!-- PROJECT: Petalune (Telegram Mini App) -->
+          <article class="project" id="petalune" aria-labelledby="petalune-title">
+            <a href="https://tg-booking-miniapp.pages.dev" target="_blank" rel="noopener" class="browser project__shot" aria-label="tg-booking-miniapp.pages.dev — open the Petalune Nail Studio live demo (opens in a new tab)">
+              <div class="browser__bar"><i></i><i></i><i></i><span>tg-booking-miniapp.pages.dev</span></div>
+              <img src="assets/petalune-miniapp.webp" alt="Petalune Nail Studio Telegram Mini App on three phones: service list with sample prices, date strip with free time slots, and the booking confirmation screen" width="1200" height="721" loading="lazy" decoding="async" />
+            </a>
+            <div class="project__body">
+              <div class="tags"><span>Demo</span><span>Telegram Mini App</span><span>Booking</span></div>
+              <h3 id="petalune-title">Petalune Nail Studio — Telegram Mini App booking</h3>
+              <p>A booking app that opens right inside Telegram: pick a service, a specialist and a free slot in a few taps, then manage, reschedule or cancel bookings. It also works as a normal web page.</p>
+              <ul class="checks checks--compact">
+                <li><strong>Native Telegram feel</strong> — theme colours, MainButton, BackButton and haptics via the Telegram WebApp SDK.</li>
+                <li><strong>Secure backend</strong> — server-side initData signature check and database-level double-booking protection.</li>
+                <li><strong>Bot notifications</strong> — the owner and the client get messages from the bot, plus a reminders worker.</li>
+              </ul>
+              <ul class="stack" aria-label="Petalune tech stack">
+                <li>React</li><li>TypeScript</li><li>Telegram WebApp SDK</li><li>Cloudflare Pages Functions</li><li>Cloudflare D1</li>
+              </ul>
+              <div class="project__actions">
+                <a href="https://tg-booking-miniapp.pages.dev" target="_blank" rel="noopener" class="btn btn--sm btn--primary">Live demo ↗<span class="sr-only"> Petalune Nail Studio (opens in a new tab)</span></a>
+                <a href="https://t.me/KaaaaniBot" target="_blank" rel="noopener" class="btn btn--sm btn--ghost">Open in Telegram ↗<span class="sr-only"> (opens in a new tab)</span></a>
+                <a href="https://github.com/viperrrrrrrrrrrrrrrr/telegram-booking-miniapp" target="_blank" rel="noopener" class="btn btn--sm btn--ghost">Code ↗<span class="sr-only"> Petalune Nail Studio on GitHub (opens in a new tab)</span></a>
+              </div>
+              <p class="note">Fictional studio, sample prices. The public demo runs in demo mode: bookings stay in your browser and nothing is sent to a server.</p>
+            </div>
+          </article>
+
+          <!-- PROJECT: Vespryn (3D configurator) -->
+          <article class="project" id="vespryn" aria-labelledby="vespryn-title">
+            <a href="https://watch-configurator-demo.pages.dev" target="_blank" rel="noopener" class="browser project__shot" aria-label="watch-configurator-demo.pages.dev — open the Vespryn 3D watch configurator live demo (opens in a new tab)">
+              <div class="browser__bar"><i></i><i></i><i></i><span>watch-configurator-demo.pages.dev</span></div>
+              <img src="assets/vespryn-configurator.webp" alt="Vespryn V-40 Meridian 3D watch configurator: a steel watch with a midnight-blue dial and brown leather strap next to case and dial options and a sample total of $2,400" width="1200" height="721" loading="lazy" decoding="async" />
+            </a>
+            <div class="project__body">
+              <div class="tags"><span>Demo</span><span>3D configurator</span><span>E-commerce</span></div>
+              <h3 id="vespryn-title">Vespryn V-40 Meridian — 3D product configurator</h3>
+              <p>An interactive 3D configurator for a watch brand: customers rotate the watch, change every part and see the price update live. The 3D model is built entirely in code — no model files.</p>
+              <ul class="checks checks--compact">
+                <li><strong>Configure everything</strong> — case material, dial, bezel and strap, each change animated on the model.</li>
+                <li><strong>Live itemised price</strong> — plus a case-back engraving preview.</li>
+                <li><strong>Shareable builds</strong> — every configuration has its own link.</li>
+              </ul>
+              <ul class="stack" aria-label="Vespryn tech stack">
+                <li>three.js</li><li>React Three Fiber</li><li>React</li><li>TypeScript</li>
+              </ul>
+              <div class="project__actions">
+                <a href="https://watch-configurator-demo.pages.dev" target="_blank" rel="noopener" class="btn btn--sm btn--primary">Live demo ↗<span class="sr-only"> Vespryn watch configurator (opens in a new tab)</span></a>
+                <a href="https://github.com/viperrrrrrrrrrrrrrrr/watch-configurator-3d" target="_blank" rel="noopener" class="btn btn--sm btn--ghost">Code ↗<span class="sr-only"> Vespryn watch configurator on GitHub (opens in a new tab)</span></a>
+              </div>
+              <p class="note">Fictional brand, sample prices — nothing is for sale.</p>
+            </div>
+          </article>
+
+          <!-- PROJECT: Mintleaf (quote calculator) -->
+          <article class="project" id="mintleaf" aria-labelledby="mintleaf-title">
+            <a href="https://quote-calculator-demo.pages.dev" target="_blank" rel="noopener" class="browser project__shot" aria-label="quote-calculator-demo.pages.dev — open the Mintleaf Home Cleaning quote calculator live demo (opens in a new tab)">
+              <div class="browser__bar"><i></i><i></i><i></i><span>quote-calculator-demo.pages.dev</span></div>
+              <img src="assets/mintleaf-quote.webp" alt="Mintleaf Home Cleaning quote calculator at step 4 of 6, choosing extras, with a live estimate breakdown on the right (sample prices)" width="1200" height="721" loading="lazy" decoding="async" />
+            </a>
+            <div class="project__body">
+              <div class="tags"><span>Demo</span><span>Quote calculator</span><span>Lead capture</span></div>
+              <h3 id="mintleaf-title">Mintleaf Home Cleaning — instant quote calculator</h3>
+              <p>A step-by-step price calculator for a cleaning company: visitors answer a few questions and see an itemised estimate update as they go, then send a request.</p>
+              <ul class="checks checks--compact">
+                <li><strong>Six clear steps</strong> — service, home size, frequency, extras, date and contact.</li>
+                <li><strong>Live estimate</strong> — itemised breakdown with frequency discounts.</li>
+                <li><strong>One config file</strong> — all sample prices and rules live in a single file, easy to change.</li>
+              </ul>
+              <ul class="stack" aria-label="Mintleaf tech stack">
+                <li>React</li><li>TypeScript</li><li>Vite</li><li>Tailwind CSS</li>
+              </ul>
+              <div class="project__actions">
+                <a href="https://quote-calculator-demo.pages.dev" target="_blank" rel="noopener" class="btn btn--sm btn--primary">Live demo ↗<span class="sr-only"> Mintleaf quote calculator (opens in a new tab)</span></a>
+                <a href="https://github.com/viperrrrrrrrrrrrrrrr/quote-calculator-demo" target="_blank" rel="noopener" class="btn btn--sm btn--ghost">Code ↗<span class="sr-only"> Mintleaf quote calculator on GitHub (opens in a new tab)</span></a>
+              </div>
+              <p class="note">Fictional business, sample prices. The demo request form sends nothing.</p>
+            </div>
+          </article>
+
+          <!-- PROJECT: Ember & Oat (editable site) -->
+          <article class="project" id="ember-oat" aria-labelledby="ember-oat-title">
+            <a href="https://editable-site-demo.pages.dev" target="_blank" rel="noopener" class="browser project__shot" aria-label="editable-site-demo.pages.dev — open the Ember &amp; Oat Café live demo (opens in a new tab)">
+              <div class="browser__bar"><i></i><i></i><i></i><span>editable-site-demo.pages.dev</span></div>
+              <img src="assets/ember-oat-editor.webp" alt="Ember &amp; Oat Café website, “Edit it yourself” page: three steps for the owner next to the visual editor changing menu prices" width="1200" height="721" loading="lazy" decoding="async" />
+            </a>
+            <div class="project__body">
+              <div class="tags"><span>Demo</span><span>Business website</span><span>CMS</span></div>
+              <h3 id="ember-oat-title">Ember &amp; Oat Café — website the owner edits</h3>
+              <p>A fast café website whose owner can change texts, menu prices and photos in a visual editor — no developer needed for everyday updates.</p>
+              <ul class="checks checks--compact">
+                <li><strong>Visual editing</strong> — every text, price and photo is a labelled field with a live preview.</li>
+                <li><strong>Fast and accessible</strong> — Lighthouse scores 96–100 and 0 axe violations.</li>
+                <li><strong>Menu, hours, location and contact</strong> — everything a local café needs on one page.</li>
+              </ul>
+              <ul class="stack" aria-label="Ember &amp; Oat tech stack">
+                <li>Astro</li><li>TinaCMS</li><li>Tailwind CSS</li><li>TypeScript</li>
+              </ul>
+              <div class="project__actions">
+                <a href="https://editable-site-demo.pages.dev" target="_blank" rel="noopener" class="btn btn--sm btn--primary">Live demo ↗<span class="sr-only"> Ember &amp; Oat Café (opens in a new tab)</span></a>
+                <a href="https://github.com/viperrrrrrrrrrrrrrrr/editable-site-demo" target="_blank" rel="noopener" class="btn btn--sm btn--ghost">Code ↗<span class="sr-only"> Ember &amp; Oat Café on GitHub (opens in a new tab)</span></a>
+              </div>
+              <p class="note">Fictional café, sample prices. The public demo shows the editor in a walkthrough, and its contact form sends nothing.</p>
+            </div>
+          </article>
+        </div>
 
         <div class="case__label">
           <p class="kicker">Also built</p>
@@ -305,11 +421,12 @@
         <div>
           <p class="kicker kicker--light">Contact</p>
           <h2>Have a project in mind?</h2>
-          <p>Tell me a bit about your business and what you need. I’ll reply with questions or a quote. I work remotely with clients worldwide.</p>
+          <p>Tell me a bit about your business and what you need. I’ll reply with questions or a quote. Everything happens in writing — by email or chat — starting with a short project brief. I work remotely with clients worldwide.</p>
         </div>
         <!-- CONTACT EMAIL: the only place it appears — edit this one line to change it -->
         <div class="contact__links">
           <a class="contact__item" href="mailto:ilwaimva@gmail.com"><span class="contact__label">Email</span><span class="contact__value">ilwaimva@gmail.com</span></a>
+          <a class="contact__item" href="https://github.com/viperrrrrrrrrrrrrrrr" target="_blank" rel="noopener"><span class="contact__label">GitHub — code of my demos</span><span class="contact__value">github.com/viperrrrrrrrrrrrrrrr<span class="sr-only"> (opens in a new tab)</span></span></a>
         </div>
       </div>
     </section>
@@ -318,7 +435,7 @@
   <footer class="footer">
     <div class="container footer__inner">
       <span>© <span id="year">2026</span> Ivan Litvin · Freelance web developer</span>
-      <a href="#top">Back to top ↑</a>
+      <span class="footer__links"><a href="https://github.com/viperrrrrrrrrrrrrrrr" target="_blank" rel="noopener">GitHub ↗<span class="sr-only"> (opens in a new tab)</span></a><a href="#top">Back to top ↑</a></span>
     </div>
   </footer>
 

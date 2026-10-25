@@ -11,8 +11,12 @@ It is a hand-coded static site (HTML, CSS and a few lines of JavaScript) with no
 
 - Hero, services, selected work, process, pricing and contact sections
 - Case studies of my demo projects (screenshots in `assets/`), linking to their live demos:
-  - [Brasswood Barber Co. booking system](https://brasswood-booking.pages.dev) — booking flow and admin panel
+  - [Brasswood Barber Co. booking system](https://brasswood-booking.pages.dev) — booking flow and admin panel ([code](https://github.com/viperrrrrrrrrrrrrrrr/brasswood-booking))
   - [AutoCare car service website](https://autocare-demo-9b2.pages.dev)
+  - [Petalune Nail Studio Telegram Mini App](https://tg-booking-miniapp.pages.dev) — booking inside Telegram ([code](https://github.com/viperrrrrrrrrrrrrrrr/telegram-booking-miniapp))
+  - [Vespryn V-40 Meridian 3D watch configurator](https://watch-configurator-demo.pages.dev) ([code](https://github.com/viperrrrrrrrrrrrrrrr/watch-configurator-3d))
+  - [Mintleaf Home Cleaning instant quote calculator](https://quote-calculator-demo.pages.dev) ([code](https://github.com/viperrrrrrrrrrrrrrrr/quote-calculator-demo))
+  - [Ember & Oat Café editable website (Astro + TinaCMS)](https://editable-site-demo.pages.dev) ([code](https://github.com/viperrrrrrrrrrrrrrrr/editable-site-demo))
 - Mobile-first, responsive layout with an accessible mobile menu (`main.js`)
 - Optimised WebP images, no tracking scripts
 
