@@ -9,7 +9,7 @@ It is a hand-coded static site (HTML, CSS and a few lines of JavaScript) with no
 
 ## What's inside
 
-- Hero, services, selected work, process, pricing and contact sections
+- Hero, services, selected work, process and contact sections
 - Case studies of my demo projects (screenshots in `assets/`), linking to their live demos:
   - [Brasswood Barber Co. booking system](https://brasswood-booking.pages.dev) — booking flow and admin panel ([code](https://github.com/viperrrrrrrrrrrrrrrr/brasswood-booking))
   - [AutoCare car service website](https://autocare-demo-9b2.pages.dev)
