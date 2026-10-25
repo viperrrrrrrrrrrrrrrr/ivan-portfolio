@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ivan Litvin — Web Developer for Small Businesses</title>
+  <meta name="description" content="Ivan Litvin builds fast, modern websites and web apps for small businesses worldwide: online booking systems with admin panels, landing pages, business websites, redesigns and simple automations." />
+  <meta property="og:title" content="Ivan Litvin — Fast, modern websites for small businesses" />
+  <meta property="og:description" content="Online booking systems and web apps with admin panels, landing pages, small-business websites, redesigns and simple automations. Working remotely with clients worldwide." />
+  <meta property="og:type" content="website" />
+  <!-- EDIT: after deploying, set og:url and og:image to your real domain -->
+  <meta property="og:image" content="assets/brasswood-og.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%234f46e5'/><text x='50%' y='56%' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='30' fill='white'>IL</text></svg>" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="logo"><span class="logo__mark">IL</span><span>Ivan Litvin</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="btn btn--sm btn--primary">Get in touch</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow"><span class="dot"></span> Available for new projects · Working remotely worldwide</p>
+          <h1>Websites &amp; booking systems for <span class="accent">small &amp; local businesses</span>.</h1>
+          <p class="lead">I’m Ivan Litvin, a freelance web developer. I build clean, mobile-friendly websites that show what you do and what it costs — and full-stack web apps like online booking systems with an admin panel for your team. Delivered quickly with a modern, AI-assisted workflow.</p>
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn--primary">Discuss your project</a>
+            <a href="#work" class="btn btn--ghost">See my work →</a>
+          </div>
+          <ul class="hero__points">
+            <li>Mobile-first &amp; fast</li>
+            <li>Booking systems &amp; admin panels</li>
+            <li>Clear, fixed quotes</li>
+            <li>Multilingual sites</li>
+          </ul>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="browser">
+            <div class="browser__bar"><i></i><i></i><i></i><span>brasswood-booking.pages.dev</span></div>
+            <img src="assets/brasswood-booking.webp" alt="" width="1200" height="750" fetchpriority="high" decoding="async" />
+          </div>
+          <div class="phone"><img src="assets/brasswood-mobile.webp" alt="" width="600" height="1298" decoding="async" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker">Services</p>
+          <h2>What I can build for you</h2>
+          <p class="muted">From focused websites that turn visitors into enquiries to web apps that run part of your business — like taking bookings around the clock.</p>
+        </div>
+        <div class="cards">
+          <article class="card card--feature">
+            <div class="card__icon">📅</div>
+            <div>
+              <h3>Booking systems &amp; web apps with admin panels</h3>
+              <p>Online booking for barbershops, salons, studios and other appointment-based businesses: customers pick a service, specialist and free time slot; your team manages the schedule, bookings, clients, services and staff in a private admin panel.</p>
+              <a href="#brasswood" class="card__link">See the Brasswood case study →</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__icon">⚡</div>
+            <h3>Landing pages</h3>
+            <p>A single, focused page for a product, offer or campaign — with a clear message, strong call to action and a contact or sign-up form.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🏪</div>
+            <h3>Small-business websites</h3>
+            <p>Multi-section sites for local businesses: services and price list, about, opening hours, map, contact or booking form, basic local SEO.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🎨</div>
+            <h3>Redesigns</h3>
+            <p>Have an outdated site that looks bad on phones? I’ll rebuild it with a modern design, faster loading and a clearer structure.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🤖</div>
+            <h3>Telegram bots &amp; simple automations</h3>
+            <p>Small helpers that save time: forward form submissions to Telegram, simple booking or FAQ bots, basic workflow automations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section section--alt" id="work">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker">Selected work</p>
+          <h2>Case studies</h2>
+          <p class="muted">From a full-stack booking system with an admin panel to a fast website for a local business.</p>
+        </div>
+
+        <!-- CASE: Brasswood (personal / demo project) -->
+        <article class="case case--flagship" id="brasswood">
+          <div class="case__intro">
+            <div class="tags"><span class="tag--strong">Personal project</span><span>Demo</span><span>Full-stack web app</span><span>Booking system</span><span>Admin panel</span></div>
+            <h3 class="case__title">Brasswood Barber Co. — online booking web app for a barbershop</h3>
+            <p class="case__lead">An online booking web app for a (fictional) barbershop: clients book a service with their preferred barber in a few taps, and the team runs the day from an admin panel — schedule, bookings, clients, services and barbers.</p>
+          </div>
+
+          <div class="case__media">
+            <a href="https://brasswood-booking.pages.dev" target="_blank" rel="noopener" class="browser browser--lg" aria-label="Open the Brasswood live demo (opens in a new tab)">
+              <div class="browser__bar"><i></i><i></i><i></i><span>brasswood-booking.pages.dev</span></div>
+              <img src="assets/brasswood-slots.webp" alt="Brasswood booking flow: picking a date in the calendar and a free time slot, with the appointment summary on the right" width="1200" height="750" loading="lazy" decoding="async" />
+            </a>
+            <div class="gallery">
+              <figure class="browser">
+                <div class="browser__bar"><i></i><i></i><i></i><span>Admin · Dashboard</span></div>
+                <img src="assets/brasswood-dashboard.webp" alt="Brasswood admin dashboard with today’s bookings, revenue chart, staff load and today’s schedule (sample data)" width="1200" height="750" loading="lazy" decoding="async" />
+              </figure>
+              <figure class="browser">
+                <div class="browser__bar"><i></i><i></i><i></i><span>Admin · Schedule</span></div>
+                <img src="assets/brasswood-schedule.webp" alt="Brasswood admin weekly schedule with bookings colour-coded per barber (sample data)" width="1200" height="750" loading="lazy" decoding="async" />
+              </figure>
+              <figure class="gallery__phone">
+                <img src="assets/brasswood-mobile-slots.webp" alt="Brasswood booking flow on a phone: date strip and time slots" width="600" height="1298" loading="lazy" decoding="async" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="case__body">
+            <h4>For clients</h4>
+            <ul class="checks">
+              <li><strong>Step-by-step booking</strong> — service, barber, date and a free time slot, then contact details and a confirmation.</li>
+              <li><strong>Manage a booking</strong> — clients can look up, cancel or reschedule their booking.</li>
+              <li><strong>Salon time zone</strong> — slots always follow the shop’s time zone (America/New_York), whatever time zone the visitor’s browser is in.</li>
+              <li><strong>Responsive design</strong> — works on phones, tablets and desktops.</li>
+            </ul>
+            <h4>For the team — admin panel</h4>
+            <ul class="checks">
+              <li><strong>Schedule</strong> — day and week views of all bookings.</li>
+              <li><strong>Bookings &amp; clients</strong> — every booking and client in one place.</li>
+              <li><strong>Services &amp; barbers</strong> — editable by the team.</li>
+            </ul>
+          </div>
+
+          <div class="case__tech">
+            <div class="tech">
+              <h4>Modern front end</h4>
+              <p>React, TypeScript, Vite and Tailwind CSS.</p>
+            </div>
+            <div class="tech">
+              <h4>Server version</h4>
+              <p>Cloudflare Pages Functions with a Cloudflare D1 database, server-side admin authentication and sessions.</p>
+            </div>
+            <div class="tech">
+              <h4>No double bookings</h4>
+              <p>Verified by a test: 10 parallel bookings of the same slot result in <strong>exactly 1 success</strong>.</p>
+            </div>
+            <div class="tech">
+              <h4>Automated tests</h4>
+              <p>Unit and end-to-end tests cover the booking logic and the main user flows.</p>
+            </div>
+            <ul class="stack" aria-label="Tech stack">
+              <li>React</li><li>TypeScript</li><li>Vite</li><li>Tailwind CSS</li><li>Cloudflare Pages Functions</li><li>Cloudflare D1</li>
+            </ul>
+          </div>
+
+          <div class="case__footer">
+            <div class="case__actions">
+              <a href="https://brasswood-booking.pages.dev" target="_blank" rel="noopener" class="btn btn--primary">Live demo ↗</a>
+            </div>
+            <p class="demo-login">To see the admin panel, use the <strong>Admin demo</strong> button in the demo’s header — demo login <code>admin</code> / <code>demo</code> (shown on the login page).</p>
+            <p class="note">Personal demo project for a fictional barbershop, built to showcase my approach; not a client project. The public demo runs in your browser with sample data, so feel free to click around — nothing is sent anywhere.</p>
+          </div>
+        </article>
+
+        <div class="case__label">
+          <p class="kicker">Also built</p>
+          <h3 class="case__title">Plzeň AutoCare — website for a car service</h3>
+          <p class="muted">A concept website for a local car-service business — the kind of project I love to build.</p>
+        </div>
+
+        <div class="case">
+          <div class="case__media">
+            <a href="https://autocare-demo-9b2.pages.dev" target="_blank" rel="noopener" class="browser browser--lg">
+              <div class="browser__bar"><i></i><i></i><i></i><span>autocare-demo-9b2.pages.dev</span></div>
+              <img src="assets/autocare.webp" alt="Screenshot of the Plzeň AutoCare car service website homepage" width="1200" height="750" loading="lazy" decoding="async" />
+            </a>
+          </div>
+          <div class="case__body">
+            <div class="tags"><span>Demo project</span><span>Local business</span><span>Czech-language</span></div>
+            <p>A Czech-language website for a car service in <strong>Plzeň, Czech Republic</strong>. The goal: give drivers a clear picture of services and prices before they call, and make booking a visit effortless.</p>
+            <h4>What I built</h4>
+            <ul class="checks">
+              <li><strong>Responsive layout</strong> — dark, bold design that works on phones, tablets and desktops.</li>
+              <li><strong>Service price list</strong> — six services (diagnostics, brakes, oil change, A/C, tyres, engine repair) with “from” prices in CZK.</li>
+              <li><strong>Booking / contact form</strong> — name, phone, car make and a short description of the problem.</li>
+              <li><strong>4-step process</strong> — from booking to handover, so customers know what to expect.</li>
+              <li><strong>Local SEO basics</strong> — page title and description, address, phone and opening hours in the contact section.</li>
+            </ul>
+            <div class="case__actions">
+              <a href="https://autocare-demo-9b2.pages.dev" target="_blank" rel="noopener" class="btn btn--primary">View live site ↗</a>
+            </div>
+            <p class="note">Concept/demo project built to showcase my approach; not a paid client project.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker">Process</p>
+          <h2>Simple, transparent, fast</h2>
+          <p class="muted">No jargon and no surprises — you always know what’s happening and what it costs.</p>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3>Project brief</h3>
+            <p>You tell me about your business, your customers and what the site needs to achieve. Everything happens in writing, by email or chat, so you can answer whenever it suits you.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3>Plan &amp; fixed quote</h3>
+            <p>You get a clear page structure, timeline and fixed price before any work starts.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <h3>Design &amp; build</h3>
+            <p>I build the site and share a live preview link, so you can review it on your own phone and request changes.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">04</span>
+            <h3>Launch &amp; handover</h3>
+            <p>I publish the site on your domain, connect the contact form and show you how everything works.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section section--alt" id="pricing">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker">Pricing</p>
+          <h2>Starting prices</h2>
+          <p class="muted">Every project gets a fixed quote after a short written brief. These are starting points to give you an idea.</p>
+        </div>
+        <div class="pricing">
+          <article class="price">
+            <h3>Landing page</h3>
+            <p class="price__amount"><span>Starting from</span> <b>$400</b></p>
+            <ul>
+              <li>One focused page</li>
+              <li>Mobile-responsive design</li>
+              <li>Contact or sign-up form</li>
+              <li>Basic SEO setup</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Ask about this</a>
+          </article>
+          <article class="price price--featured">
+            <span class="badge">Most popular</span>
+            <h3>Business website</h3>
+            <p class="price__amount"><span>Starting from</span> <b>$900</b></p>
+            <ul>
+              <li>Up to 5 sections or pages</li>
+              <li>Services &amp; price list</li>
+              <li>Booking / contact form</li>
+              <li>Local SEO basics &amp; map</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block">Ask about this</a>
+          </article>
+          <article class="price">
+            <h3>Redesign / automation</h3>
+            <p class="price__amount"><span>Starting from</span> <b>$600</b></p>
+            <ul>
+              <li>Modern rebuild of an existing site</li>
+              <li>or a simple Telegram bot</li>
+              <li>or a form-to-chat automation</li>
+              <li>Scope agreed upfront</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Ask about this</a>
+          </article>
+        </div>
+        <p class="pricing__note"><strong>Need a booking system or a web app with an admin panel?</strong> These projects are scoped individually — tell me what you need and you’ll get a fixed quote after a short written brief. <a href="#brasswood">See an example →</a></p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact__box">
+        <div>
+          <p class="kicker kicker--light">Contact</p>
+          <h2>Have a project in mind?</h2>
+          <p>Tell me a bit about your business and what you need. I’ll reply with questions or a quote. I work remotely with clients worldwide.</p>
+        </div>
+        <!-- CONTACT EMAIL: the only place it appears — edit this one line to change it -->
+        <div class="contact__links">
+          <a class="contact__item" href="mailto:ilwaimva@gmail.com"><span class="contact__label">Email</span><span class="contact__value">ilwaimva@gmail.com</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year">2026</span> Ivan Litvin · Freelance web developer</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
